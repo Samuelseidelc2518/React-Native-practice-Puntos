@@ -6,6 +6,20 @@ export default StyleSheet.create({
 		flex: 1,
 		backgroundColor: '#fff',
 		alignItems: 'center',
-		justifyContent: 'center',
+		justifyContent: 'flex-start',
 	},
+	center: {
+		flex: 1,
+		justifyContent: 'center',
+		alignItems: 'center'
+	},
+	aceptar: {
+		marginBottom: 10,
+		padding: 15
+	},
+	modal: {
+		flex: 1,
+		flexDirection: 'column',
+		width: Dimensions.get("window").width - 250,
+	}
 });

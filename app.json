@@ -23,7 +23,9 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.samuelsc2518.Puntos",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
